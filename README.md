@@ -30,4 +30,10 @@
    python add_all_teams.py
    ```
 
-5. Open frontend/index.html in browser
+5. Open frontend/index.html in browser 
+
+
+# After running app.py
+cd backend
+python add_all_teams.py
+
