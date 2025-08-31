@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Disaster Management Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+  <h2>Disaster Management Tracker</h2>
+
+  <!-- Login Section -->
+  <div id="login-box">
+    <h3>Login</h3>
+    <input type="text" id="username" placeholder="Enter Username"><br><br>
+    <input type="password" id="password" placeholder="Enter Password"><br><br>
+    <button onclick="login()">Login</button>
+    <p id="error" style="color:red;"></p>
+  </div>
+
+  <!-- Map Section (hidden by default) -->
+  <div id="map-box" style="display:none;">
+    <div id="map"></div>
+  </div>
+
+  
+
+<footer class="footer" >
+    <p>Designed & developed by <strong>Karuppasamy M</strong> | Full Stack Developer | &copy; 2025 All Rights Reserved</p>
+    <p>
+        <strong>Contact:</strong> 
+        <a href="mailto:mkspari45@gmail.com">mkspari45@gmail.com</a> 
+        &nbsp; | &nbsp;
+        <strong>Follow:</strong>
+        <a href="https://www.instagram.com/__mr__pari__?igsh=MWx6NjJscmhlY3VocQ==" target="_blank">Instagram</a> |
+        <a href="https://github.com/KaruppasamyPari" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/karuppasamy-m-94b357251/" target="_blank">LinkedIn</a>
+    </p>
+</footer>
+
+
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>
